@@ -1,5 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
-import Restaurant from "./Recipe/Restaurant";
+import Restaurant from "./homePage/Restaurant";
+import NabataColtd153 from './order/NabataColtd153';
 import './App.css'
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
   return (
  <Routes>
   <Route path="/" element={<Restaurant/>}/>
+  <Routes path="/nabata" element={<NabataColtd153/>}/>
  </Routes>
   )
 }
