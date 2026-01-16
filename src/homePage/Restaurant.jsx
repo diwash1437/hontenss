@@ -23,7 +23,7 @@ function Restaurant() {
                                 </Link>
                             </li>
                             <li>
-                                <Link to='/sarada'>
+                                <Link to='/dinner'>
                                     <span>Dinner</span>
                                 </Link>
                             </li>
@@ -38,8 +38,8 @@ function Restaurant() {
                                 </Link>
                             </li>
                             <li>
-                                <Link to='/alcholOrder'>   
-                                <span>alcholOrder</span>
+                                <Link to='/tsCorporation'>   
+                                <span>Ts-Corporation</span>
                                 </Link>
                             </li>
                             <li>
