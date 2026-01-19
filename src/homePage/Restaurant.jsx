@@ -84,41 +84,28 @@ function Restaurant() {
 
             </section>
 
-
-            <section className="menu-section">
-                <div className="main-container">
-                <div className="menu-container">
-
-
-          
-                    {/* left image  */}
-                    <div className="menu-image">
-                        <img src="./image/lunch/main.jpg" alt="Main menu" />
+            <main>
+                <section className="lunch-grid">
+                    <div className="lunch-container">
+                    <div className="left-lunch-container">
+                        <img src="./image/lunch/mabusi.jpg" alt="" />
                     </div>
-                    {/* right image  */}
-                    <div className="main-content">
-                        <h1>Main menu in a restaurant</h1>
-                        <p>
-                            Casual restaurant offering a wide variety of dishes for casual dining.
+                    <div className="right-menu-container">
+                        <div>Main menu in a restaurant, as opposed to the lunchtime menu</div>
+                        <div className="second"> Casual restaurant offering a wide variety of dishes for casual dining.
                             Enjoy Italian cuisine with Japanese elements, using a variety of Kyoto
                             ingredients such as Hiei yuba, Kyoto duck, Kyoto mochi pork, and kujo
                             leeks. We also recommend our seasonal menu, which offers a taste of the
                             season. The tartine arranged with monaca is both tasty and visually
-                            appealing.
-                        </p>
-                        <button className="see-more">
-                        see more <span>das</span>
-                        </button>
+                            appealing.</div>
+                        <button>See more</button>
                     </div>
-                </div>
-                <div className="menu-thumbnails">
-                    <img src="./image/lunch/mabusi.jpg" alt="" />
-                    <img src="./image/lunch/saikoro.jpg" alt="" />
-                    <img src="./image/lunch/harami.jpg" alt="" />
-                </div>
-            </div>
-            </section>
-            
+                    </div>
+                </section>
+
+            </main>
+
+
         </div>
 
     );
