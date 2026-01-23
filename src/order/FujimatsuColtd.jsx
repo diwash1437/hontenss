@@ -33,7 +33,7 @@ export function FujimatsuColtd() {
                                 <td>{alcohol.jpName}</td>
                                 <td>{alcohol.enName}</td>
                                 <td>{alcohol.category}</td>
-                                <td> {alcohol.image}</td>
+                                <td> <img src={alcohol.image} alt="" width={100} /></td>
 
                             </tr>
                         )
