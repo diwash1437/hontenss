@@ -4,7 +4,7 @@ export function Yoshimuratakeshi()
 {
     return(
         
-
+// パフォーミー　2Ｌ　パウチ　希釈タイプ 
         <div>
             <title>(株)吉村武</title>
             <table>
