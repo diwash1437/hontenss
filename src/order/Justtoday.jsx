@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { drinksList } from "../data/todayreport";
-import { img } from "../utils/img";
+
 export function Justtoday() {
    const[search, setSearch]=useState('');
 
