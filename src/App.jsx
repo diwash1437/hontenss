@@ -19,7 +19,7 @@ function App() {
   <Route path='/fujimatsu' element={<FujimatsuColtd/>}/>
   {/* <Route path='/try' element={<Trycheckitem/>}/> */}
   <Route path='/yoshimuratakeshi' element={<Yoshimuratakeshi/>}/>
-  <Route path='/just-today' element={<Justtoday/>}/>
+  {/* <Route path='/just-today' element={<Justtoday/>}/> */}
 
  </Routes>
   )

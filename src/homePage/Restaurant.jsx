@@ -84,10 +84,11 @@ function Restaurant() {
                     </li>
                 </ul>
                 {/* RIGHT SIDE SPACE / ITEM */}
-                <div>       
+                {/* <div>       
                     <Link to='/just-today'>
                         <span>Today report</span>
-                        </Link></div>
+                        </Link>
+                </div> */}
                 <div className="nav-right">
                     <button className="login-btn">Login</button>
                 </div>
