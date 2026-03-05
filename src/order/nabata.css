@@ -11,9 +11,9 @@ td{
 .product-image img
 {
   width: 80%;
-  height: 120px;
+  height: 200px;
   object-position: center;
-  object-fit: cover;
+  object-fit: centers;
   overflow: auto;
 }
 

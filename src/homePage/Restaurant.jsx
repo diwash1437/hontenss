@@ -39,8 +39,8 @@ function Restaurant() {
                                 </Link>
                             </li>
                             <li>
-                                <Link to="/yoshimuratakeshi">
-                                    <span>(株)吉村武 Yoshimuratakeshi</span>
+                                <Link to="/nichibecoffee">
+                                    <span>日米珈琲(株) Nichibe Coffee</span>
                                 </Link>
                             </li>
                             <li>
@@ -48,11 +48,18 @@ function Restaurant() {
                                     <span>Ts-Corporation</span>
                                 </Link>
                             </li>
-                            <li>
+                           <li>
                                 <Link to='/nabata'>
                                     <span> (株)名畑 NabataColtd</span>
                                 </Link>
                             </li>
+                            <li>
+                                <Link to="/yoshimuratakeshi">
+                                    <span>(株)吉村武 Yoshimuratakeshi</span>
+                                </Link>
+                            </li>
+
+
                        
                             <li>
                                 <Link to=''>

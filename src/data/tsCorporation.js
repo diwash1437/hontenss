@@ -4,8 +4,9 @@ export const tsCorporation=[
     { id: 'ts3', name: 'ＵＳタン＿ステーキ店', ename:'tongue' },
     { id: 'ts4', name: 'ウチモモ＿ステーキ店', ename:'uchimomo' },
     { id: 'ts5', name: 'ハラミ＿ステーキ店', ename:'harami' },
+    
     { id: 'ts6', name: '神戸牛　サーロイン', ename:'kobe sirloin' },
-    { id: 'ts7', name: 'Rバーニャソース1ｋｇ听ＰＢ＿バラ', ename:'Bagna Sauce', image:'./image/tsCorporation/bagnaSauce.png' },
+    { id: 'ts7', name: 'Rバーニャソース1ｋｇ听ＰＢ＿バラ', ename:'Banya kaudar Sauce', image:'./image/tsCorporation/bagnaSauce.png' },
     { id: 'ts8', name: '土鍋用ハンバーグ', ename:'hamburger' },
     { id: 'ts9', name: 'カイノミ＿ステーキ店', ename:'khainomi' },
     { id: 'ts10', name: 'ランプ＿ステーキ店', ename:'ranpu' },
@@ -55,5 +56,6 @@ export const tsCorporation=[
     { id: 'ts54', name: '骨付きリブロース', ename:'Bone-in ribeye' },
     { id: 'ts55', name: '神戸牛（サーロイン・リブロース）', ename:'Kobe Beef (Sirloin & Ribeye)' },
     { id: 'ts56', name: 'コンビーフ', ename:'Corned beef' },
-    { id: 'ts57', name: 'テーブルマット2000枚', ename:'Table mats (2,000 pieces)' }
+    { id: 'ts57', name: 'テーブルマット2000枚', ename:'Table mats (2,000 pieces)' },
+    { id: 'ts58', name: 'お米5ｋｇ', ename:'5kg rice', image:'./image/tsCorporation/rice.png' },
 ]

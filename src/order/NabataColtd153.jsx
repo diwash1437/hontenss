@@ -6,7 +6,7 @@ import './nabata.css'
 function NabataColtd153() {
   // const [search, setSearch] = useState("");
   const [nameSearch, setNameSearch]=useState('');
-
+  const [isChecked, setIsChecked] = useState([]);
   // const filteredProducts = normalizedProducts.filter(product =>
   //   product.name.includes(search) ||
   //   product.romanji.toLowerCase().includes(search.toLowerCase())
@@ -20,6 +20,27 @@ function NabataColtd153() {
 //   product.name.includes(nameSearch) ||
 //   (product.english && product.english.toLowerCase().includes(nameSearch.toLowerCase()))
 // );
+
+
+//   const handleCheckboxChange = (productName) => {
+//     if (isChecked.includes(productName)) {
+//       setIsChecked(isChecked.filter(name => name !== productName)); 
+//     } else {
+//       setIsChecked([...isChecked, productName]); 
+//     }
+// };
+   function handleCheckboxChange(productName)
+   {
+    if(isChecked.includes(productName))
+    {
+      setIsChecked(isChecked.filter(name=>name !== productName))
+    }
+    else{
+      setIsChecked([...isChecked, productName])
+    }
+   }
+
+
 
   return (
     <>
@@ -40,13 +61,18 @@ function NabataColtd153() {
       />
 
       <br /><br />
+          <div>
+        {isChecked.map(name => (
+          <p key={name}>{name}</p>
+        ))}
+      </div>
 
       <table border="1" cellPadding="8">
         <thead>
           <tr>
             <th>S.No</th>
             <th>Name (JP)</th>
-            <th>Romaji</th>
+            {/* <th>Romaji</th> */}
             <th>English</th>
             <th>Image</th>
           </tr>
@@ -55,15 +81,20 @@ function NabataColtd153() {
         <tbody>
           {filterProducts.map(product => (
             <tr key={product.id}>
+              <td><input type="checkbox" name="product" checked={isChecked.includes(product.name)}
+                onChange={() => { handleCheckboxChange(product.name) }}/> </td>
               <td>{product.id}</td>
               <td>{product.name}</td>
-              <td>{product.romanji}</td>
+              {/* <td>{product.romanji}</td> */}
               <td>{product.english}</td>
               <td className='product-image'>{product.image ? <img src={product.image} alt={product.name} width="50" /> : "No Image"}</td>
             </tr>
           ))}
         </tbody>
       </table>
+
+
+  
     </>
   );
 }
