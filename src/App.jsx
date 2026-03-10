@@ -15,7 +15,7 @@ function App() {
   return (
  <Routes>
   <Route path="/" element={<Restaurant/>}/>
-  <Route path="/nabata" element={<NabataColtd153/>}/>
+  {/* <Route path="/nabata" element={<NabataColtd153/>}/> */}
   {/* <Route path='/tsCorporation' element={<TsCorporation/>}/> */}
   <Route path='/fujimatsu' element={<FujimatsuColtd/>}/>
   {/* <Route path='/try' element={<Trycheckitem/>}/> */}
