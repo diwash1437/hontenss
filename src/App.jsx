@@ -15,12 +15,12 @@ function App() {
   return (
  <Routes>
   <Route path="/" element={<Restaurant/>}/>
-  <Route path="/nabata" element={<NabataColtd153/>}/>
+  {/* <Route path="/nabata" element={<NabataColtd153/>}/> */}
   <Route path='/tsCorporation' element={<TsCorporation/>}/>
   <Route path='/fujimatsu' element={<FujimatsuColtd/>}/>
   {/* <Route path='/try' element={<Trycheckitem/>}/> */}
-  <Route path='/yoshimuratakeshi' element={<Yoshimuratakeshi/>}/>
-    <Route path='/nichibecoffee' element={<NichibeCoffee/>}/>
+  {/* <Route path='/yoshimuratakeshi' element={<Yoshimuratakeshi/>}/> */}
+    {/* <Route path='/nichibecoffee' element={<NichibeCoffee/>}/> */}
   {/* <Route path='/just-today' element={<Justtoday/>}/> */}
 
  </Routes>
