@@ -16,8 +16,8 @@ function App() {
  <Routes>
   <Route path="/" element={<Restaurant/>}/>
   {/* <Route path="/nabata" element={<NabataColtd153/>}/> */}
-  <Route path='/tsCorporation' element={<TsCorporation/>}/>
-  <Route path='/fujimatsu' element={<FujimatsuColtd/>}/>
+  {/* <Route path='/tsCorporation' element={<TsCorporation/>}/> */}
+  {/* <Route path='/fujimatsu' element={<FujimatsuColtd/>}/> */}
   {/* <Route path='/try' element={<Trycheckitem/>}/> */}
   {/* <Route path='/yoshimuratakeshi' element={<Yoshimuratakeshi/>}/> */}
     {/* <Route path='/nichibecoffee' element={<NichibeCoffee/>}/> */}
